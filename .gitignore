@@ -1,0 +1,43 @@
+# Dependencies
+node_modules
+.pnpm-store
+.pnpm-debug.log
+
+# Build outputs
+dist
+build
+.next
+.turbo
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# Flutter specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+*.iml
+.metadata
+pubspec.lock
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs
+
+# Coverage
+coverage/
+.nyc_output

@@ -1,0 +1,46 @@
+{
+  "name": "@punch/auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "start": "node app.js",
+    "lint": "eslint .",
+    "fix:lint": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/swagger": "^8.12.0",
+    "@fastify/swagger-ui": "^1.10.1",
+    "@types/axios": "^0.14.0",
+    "alchemy-sdk": "^2.10.1",
+    "axios": "^1.6.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.3",
+    "fastify-plugin": "^4.5.1",
+    "fastify-sensible": "^3.2.0",
+    "fastify-zod": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3",
+    "pino": "^8.16.1",
+    "pino-mongodb": "^4.3.0",
+    "twilio": "^4.19.3",
+    "uuid": "^9.0.1",
+    "web3": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "@types/uuid": "^9.0.6",
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "@typescript-eslint/parser": "^6.11.0",
+    "eslint": "^8.53.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}

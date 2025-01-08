@@ -1,0 +1,5 @@
+node_modules/*
+.env
+eu-north-1-bundle.pem
+*.js
+*js.map

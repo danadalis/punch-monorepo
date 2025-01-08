@@ -1,0 +1,28 @@
+
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: latest
+    commands:
+      - npm install -g typescript
+      - npm install
+  build:
+    commands:
+      - npm run build
+
+  post_build:
+    commands:
+      - echo "Creating dist directory"
+      - mkdir -p dist
+      - echo "Copying files to dist directory"
+      - cp -r * dist || true
+
+artifacts:
+  files:
+    - app.js
+    - dist/**/*
+    - src/**/*
+    - node_modules/**/*
+    - package.json
