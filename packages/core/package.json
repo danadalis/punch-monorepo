@@ -31,7 +31,7 @@
     "fastify-zod": "^1.4.0",
     "https": "^1.0.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^7.5.2",
+    "mongoose": "^8.9.5",
     "pino-mongodb": "^4.3.0",
     "zod": "^3.22.4"
   },
